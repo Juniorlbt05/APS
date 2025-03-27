@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com Datalist e Tabela</title>
+</head>
+<body>
+
+    <h1>Olá, Mundo denovoo novamente!</h1>
+    <p>Pagina 3/3 .</p>
+
+    <h1>Escolha sua Linguagem de Programação</h1>
+    
+    <form>
+        <label for="linguagem">Linguagem:</label>
+        <input list="linguagens" id="linguagem" name="linguagem">
+        
+        <datalist id="linguagens">
+            <option value="JavaScript">
+            <option value="Python">
+            <option value="Java">
+            <option value="C++">
+            <option value="Ruby">
+        </datalist>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Tabela de Horários</h2>
+    
+    <table border="1">
+        <tr>
+            <th>Dia</th>
+            <th>Manhã</th>
+            <th>Tarde</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Segunda</td>
+            <td>Matemática</td>
+            <td>Português</td>
+        </tr>
+        <tr>
+            <td>História</td>
+            <td>Ciências</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Terça</td>
+            <td>Geografia</td>
+            <td>Física</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>Educação Física</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Quarta</td>
+            <td>Literatura</td>
+            <td>Artes</td>
+        </tr>
+        <tr>
+            <td>Matemática</td>
+            <td>Biologia</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Quinta</td>
+            <td>Inglês</td>
+            <td>Filosofia</td>
+        </tr>
+        <tr>
+            <td>Química</td>
+            <td>Educação Física</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Sexta</td>
+            <td>História</td>
+            <td>Geografia</td>
+        </tr>
+        <tr>
+            <td>Literatura</td>
+            <td>Matemática</td>
+        </tr>
+    </table>
+
+</body>
+</html>
